@@ -1,0 +1,70 @@
+body {
+  background: #28383d;
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  color: #fff;
+}
+h1,
+h2,
+h3 {
+  font-family: "Bree Serif", Helvetica, sans-serif;
+}
+
+section {
+  padding: 55px 0;
+}
+
+.hero {
+  background-image: url("../images/flat.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.hero h2 {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 490px;
+  font-family: "Fredericka the Great", cursive, Helvetica, sans-serif;
+}
+
+.hero p {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 442px;
+  font-family: "Fredericka the Great", cursive, Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+
+a.nav-link {
+  color: #fff;
+}
+.active {
+  color: #fff;
+  background-image: url("../images/smallf.jpg");
+}
+a.nav-link:hover {
+  color: #28383d;
+  background-color: #fff;
+  background-image: url("../images/smallf.jpg");
+}
+#work {
+  color: #000;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.contact {
+  margin: 0 auto;
+}
+
+.arrow-up {
+  float: right;
+  padding: 10px;
+}
+
+.figure-caption {
+  font-size: 1.2em;
+}
